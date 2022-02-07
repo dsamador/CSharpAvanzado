@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAvanzado", "CSharpAva
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colecciones01ArrayList", "Colecciones01ArrayList\Colecciones01ArrayList.csproj", "{13DA3F0E-D192-4FBF-9042-CEE4E25FE24F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Colecciones02BitArray", "Colecciones02BitArray\Colecciones02BitArray.csproj", "{95B8ABF9-C429-42F1-B024-EED62AFB7605}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{13DA3F0E-D192-4FBF-9042-CEE4E25FE24F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13DA3F0E-D192-4FBF-9042-CEE4E25FE24F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13DA3F0E-D192-4FBF-9042-CEE4E25FE24F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95B8ABF9-C429-42F1-B024-EED62AFB7605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B8ABF9-C429-42F1-B024-EED62AFB7605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B8ABF9-C429-42F1-B024-EED62AFB7605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B8ABF9-C429-42F1-B024-EED62AFB7605}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
