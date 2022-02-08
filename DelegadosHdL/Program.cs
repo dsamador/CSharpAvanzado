@@ -12,18 +12,22 @@ namespace DelegadosHdL
             //regresa ese tipo, si tiene dos o mas todos menos el ultimo
             //son parametros que recibe, Func debe tener al menos el tipo de 
             //regreso
-            Func<string, int> mostrar = Show;            
+            //Action se usa para funciones que no retornan nada
+            Action<string, string> mostrar = Show;            
             HacerAlgo(mostrar);
         }
 
-        public static void HacerAlgo(Func<string, int> funcionFinal)
+        public static void HacerAlgo(Action<string, string> funcionFinal)
         {
             Console.WriteLine("Hago algo");
-            funcionFinal("se envio desde otra funcion");
+            funcionFinal("se envio desde otra funcion","  ");
             Console.WriteLine("Hago algo mas");
         }      
 
-      
+        public static void Show(string cad, string cad2)
+        {
+            Console.WriteLine(cad + cad2);
+        }
 
         public static int Show(string cad)
         {
