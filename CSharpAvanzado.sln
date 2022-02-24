@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Genericos17Clases", "Generi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegadosHdL", "DelegadosHdL\DelegadosHdL.csproj", "{8424CBAE-D74C-4C06-94A4-4EE38B682B05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structs", "Structs\Structs.csproj", "{265BB305-80F3-4BAD-A5EB-29A9102AE2AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structs", "Structs\Structs.csproj", "{265BB305-80F3-4BAD-A5EB-29A9102AE2AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{F8B20877-D61A-497F-9D3E-491B487B9159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01SingleResponsanility", "01SingleResponsanility\01SingleResponsanility.csproj", "{D6E2FE68-FC4A-4972-9681-E55D3D89B412}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,9 +55,16 @@ Global
 		{265BB305-80F3-4BAD-A5EB-29A9102AE2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{265BB305-80F3-4BAD-A5EB-29A9102AE2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{265BB305-80F3-4BAD-A5EB-29A9102AE2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E2FE68-FC4A-4972-9681-E55D3D89B412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E2FE68-FC4A-4972-9681-E55D3D89B412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E2FE68-FC4A-4972-9681-E55D3D89B412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E2FE68-FC4A-4972-9681-E55D3D89B412}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6E2FE68-FC4A-4972-9681-E55D3D89B412} = {F8B20877-D61A-497F-9D3E-491B487B9159}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C02CEB5F-CF00-47B6-ACE9-803C9CAAD7B1}
