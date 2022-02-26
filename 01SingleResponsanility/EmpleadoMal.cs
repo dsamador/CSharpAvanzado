@@ -42,6 +42,5 @@ namespace _01SingleResponsability
             double imp = CalcularImpuesto();
             Console.WriteLine($"Se pago {imp} por parte de {nombre}");
         }
-
     }
 }
