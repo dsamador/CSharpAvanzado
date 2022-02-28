@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _04InterfaceSegregation
 {
-    interface IMultifuncionalAvanzada
+    interface IMultifuncionalAvanzada : IFax, IMultifuncionalBasica
     {
 
     }
