@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03_1_LiskovSubstitution", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04InterfaceSegregation", "04InterfaceSegregation\04InterfaceSegregation.csproj", "{F899017E-E8E7-4732-B4DF-D7934A51AA43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05DependencyInversion", "05DependencyInversion\05DependencyInversion.csproj", "{DB0949C2-D364-4E0B-A280-CF1D8D9C6566}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05DependencyInversion", "05DependencyInversion\05DependencyInversion.csproj", "{DB0949C2-D364-4E0B-A280-CF1D8D9C6566}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_2_DependencyInversionRefactor", "05_2_DependencyInversionRefactor\05_2_DependencyInversionRefactor.csproj", "{CA05EA22-08B6-4C37-81EE-141B69173BBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_2_DependencyInversionRefactor", "05_2_DependencyInversionRefactor\05_2_DependencyInversionRefactor.csproj", "{CA05EA22-08B6-4C37-81EE-141B69173BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpresionLambda", "ExpresionLambda\ExpresionLambda.csproj", "{FADA7BD9-E77C-4FEA-BCD5-DA537141F374}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{CA05EA22-08B6-4C37-81EE-141B69173BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA05EA22-08B6-4C37-81EE-141B69173BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA05EA22-08B6-4C37-81EE-141B69173BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADA7BD9-E77C-4FEA-BCD5-DA537141F374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADA7BD9-E77C-4FEA-BCD5-DA537141F374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADA7BD9-E77C-4FEA-BCD5-DA537141F374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADA7BD9-E77C-4FEA-BCD5-DA537141F374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
