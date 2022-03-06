@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05DependencyInversion", "05
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05_2_DependencyInversionRefactor", "05_2_DependencyInversionRefactor\05_2_DependencyInversionRefactor.csproj", "{CA05EA22-08B6-4C37-81EE-141B69173BBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpresionLambda", "ExpresionLambda\ExpresionLambda.csproj", "{FADA7BD9-E77C-4FEA-BCD5-DA537141F374}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpresionLambda", "ExpresionLambda\ExpresionLambda.csproj", "{FADA7BD9-E77C-4FEA-BCD5-DA537141F374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions1", "Exceptions1\Exceptions1.csproj", "{448C73F2-B69E-4ED0-BF92-9A4015DFFC9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +97,10 @@ Global
 		{FADA7BD9-E77C-4FEA-BCD5-DA537141F374}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FADA7BD9-E77C-4FEA-BCD5-DA537141F374}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FADA7BD9-E77C-4FEA-BCD5-DA537141F374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448C73F2-B69E-4ED0-BF92-9A4015DFFC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448C73F2-B69E-4ED0-BF92-9A4015DFFC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448C73F2-B69E-4ED0-BF92-9A4015DFFC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448C73F2-B69E-4ED0-BF92-9A4015DFFC9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

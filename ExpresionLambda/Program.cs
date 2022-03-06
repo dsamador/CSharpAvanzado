@@ -12,9 +12,9 @@ namespace ExpresionLambda
 
             //hacemos uso de la expresion lambda
             List<int> pares = numeros.FindAll(i => (i % 2 == 0));
-            
+
             //mostramos los numeros
-            foreach(int i in pares)
+            foreach (int i in pares)
                 Console.Write(i);
 
             Console.WriteLine("---------------");
