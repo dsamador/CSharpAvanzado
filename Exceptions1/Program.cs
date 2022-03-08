@@ -35,6 +35,7 @@ namespace Exceptions1
                     $"{e.TargetSite.MemberType}");
 
                 Console.WriteLine($"Stack: {e.StackTrace}");
+                Console.WriteLine($"Ayuda: {e.HelpLink}");
 
             }
         }

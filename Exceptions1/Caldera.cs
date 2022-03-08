@@ -52,7 +52,9 @@ namespace Exceptions1
                     TempActual = TempMax;
                     Funciona = false;
 
-                    throw new Exception($"La caldera {Marca} se sobrecalienta");
+                    Exception ex = new Exception($"La caldera {Marca} se sobrecalienta");
+                    ex.HelpLink = "https://www.jw.org";
+                    throw ex;
                 }
             }
         }
