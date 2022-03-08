@@ -62,5 +62,52 @@ namespace Exceptions1
                 }
             }
         }
+        public void Trabajar2(int Aumento)
+        {
+            if (Funciona == false)
+                Console.WriteLine($"La caldera {Marca} esta descompuesta");
+            else
+            {
+                TempActual += Aumento;
+                Console.WriteLine($"La temperatura actual es de {TempActual}");
+                if (TempActual > TempMax)
+                {
+                    Console.WriteLine($"{Marca} supero la temperatura, " +
+                        $"tiene {TempActual} ");
+                    TempActual = TempMax;
+                    Funciona = false;
+
+                    CalderaException ex = new CalderaException(
+                            $"La caldera {Marca} se ha sobrecalentado",                        
+                            DateTime.Now,
+                            "Ha trabajado demasiado tiempo"
+                        );
+
+                    throw ex;
+                }
+            }
+        }
     }
+
+    public class CalderaException : ApplicationException
+    {
+        public string Mensaje { get; set; } = "";
+        public DateTime Momento { get; set; }
+        public string Causa { get; set; }
+
+        public CalderaException(string mensaje, DateTime momento, string causa)
+        {
+            Mensaje = mensaje;
+            Momento = momento;
+            Causa = causa;
+        }
+
+        public override string Message
+        {
+            get => $"Mensaje de la excepcion => {Mensaje}";            
+        }
+
+
+    }
+
 }

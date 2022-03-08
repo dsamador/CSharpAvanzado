@@ -46,6 +46,31 @@ namespace Exceptions1
                 }
 
             }
+
+            //Excepciones propias
+
+            Console.WriteLine("Exceptions propias");
+            Caldera caldera2 = new Caldera(20, "Matic-O");
+            Random random = new Random();
+            while (caldera2.Funciona)
+            {
+                try
+                {
+                    caldera2.Trabajar2(random.Next(10));
+                }
+                //catch (Exception e)
+                //{
+                //    Console.WriteLine($"Mensaje : {e.Message}");                    
+                //}
+                catch(CalderaException e)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine(e.Message);
+                    Console.WriteLine(e.Momento);
+                    Console.WriteLine(e.Causa);
+                    Console.ForegroundColor = ConsoleColor.White;
+                }
+            }
         }
     }
 }
