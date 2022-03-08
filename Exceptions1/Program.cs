@@ -17,7 +17,7 @@ namespace Exceptions1
             try
             {
                 for (int i = 0; i < 10; i++)                
-                    caldera.Trabajar(20);
+                    caldera.Trabajar2(20);
                 
             }
             catch (Exception e)
@@ -70,6 +70,21 @@ namespace Exceptions1
                     Console.WriteLine(e.Causa);
                     Console.ForegroundColor = ConsoleColor.White;
                 }
+            }
+
+            Caldera caldera3 = new Caldera(20, "Matic-O");
+
+            try
+            {
+                caldera3.Trabajar2(-10);
+            }
+            catch (CalderaException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch (ArgumentOutOfRangeException e)
+            {
+                Console.WriteLine(e.Message);
             }
         }
     }

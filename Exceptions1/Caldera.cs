@@ -64,6 +64,11 @@ namespace Exceptions1
         }
         public void Trabajar2(int Aumento)
         {
+            //Ahora lanzamos dos excepciones
+            if (Aumento < 0)
+                throw new
+                    ArgumentOutOfRangeException("Aumento", "El aumento no puede ser negativo");
+
             if (Funciona == false)
                 Console.WriteLine($"La caldera {Marca} esta descompuesta");
             else
@@ -107,7 +112,39 @@ namespace Exceptions1
             get => $"Mensaje de la excepcion => {Mensaje}";            
         }
 
+    }
 
+    //Excepcion completa de acuerdo a las reglas de .NET
+    //Derivar de Exceptiom/ApplicationException
+    //Usar [System.Serializable]
+    //Definir constructor de default
+    //Definir constructor que coloca Message en la herencia
+    //Definir constructor que maneja excepciones internas
+    //Definir constructor que maneja la serializacion del tipo
+
+    [Serializable]
+    public class CalderaException2 : ApplicationException
+    {
+        public CalderaException2() { }
+        public CalderaException2(string Mensaje) : base(Mensaje) { }
+        public CalderaException2(string Mensaje, System.Exception inner)
+            : base(Mensaje, inner) { }
+
+        protected CalderaException2(
+                System.Runtime.Serialization.SerializationInfo info,
+                System.Runtime.Serialization.StreamingContext context)
+            : base(info, context) { }
+
+        //Propiedades adicionales
+        public string Mensaje { get; set; } = "";
+        public DateTime Momento { get; set; }
+        public string Causa { get; set; }
+
+        public CalderaException2(string mensaje, DateTime momento, string causa) : base(mensaje)
+        {
+            Momento = momento;
+            Causa = causa;
+        }
     }
 
 }
