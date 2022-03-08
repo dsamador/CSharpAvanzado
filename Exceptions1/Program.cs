@@ -37,6 +37,14 @@ namespace Exceptions1
                 Console.WriteLine($"Stack: {e.StackTrace}");
                 Console.WriteLine($"Ayuda: {e.HelpLink}");
 
+                Console.WriteLine("Datos propios");
+
+                if(e.Data != null)
+                {
+                    foreach(DictionaryEntry entry in e.Data)
+                        Console.WriteLine($"-> {entry.Key} -> {entry.Value}");
+                }
+
             }
         }
     }

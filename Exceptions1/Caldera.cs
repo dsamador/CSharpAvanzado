@@ -54,6 +54,10 @@ namespace Exceptions1
 
                     Exception ex = new Exception($"La caldera {Marca} se sobrecalienta");
                     ex.HelpLink = "https://www.jw.org";
+                    ex.Data.Add("Momento",$"Ocurrio en {DateTime.Now}");
+                    ex.Data.Add("Temperatura actual",$"{TempActual} grados");
+                    ex.Data.Add("Incremento dado",$"{Aumento} grados");
+
                     throw ex;
                 }
             }
