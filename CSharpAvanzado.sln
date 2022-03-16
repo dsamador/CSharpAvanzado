@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions1", "Exceptions1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectLifeCicle", "ObjectLifeCicle\ObjectLifeCicle.csproj", "{3B1A13E8-E0FF-4D05-B946-F84E3E6EA6CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4BitArrayI", "4BitArrayI\4BitArrayI.csproj", "{CD674D1E-9BCB-4FDE-847C-923424583EC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4BitArrayI", "4BitArrayI\4BitArrayI.csproj", "{CD674D1E-9BCB-4FDE-847C-923424583EC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5HashTable", "5HashTable\5HashTable.csproj", "{6ABBCF87-632B-4D31-A4FF-D3FBC4DF9BA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +115,10 @@ Global
 		{CD674D1E-9BCB-4FDE-847C-923424583EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD674D1E-9BCB-4FDE-847C-923424583EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD674D1E-9BCB-4FDE-847C-923424583EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ABBCF87-632B-4D31-A4FF-D3FBC4DF9BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABBCF87-632B-4D31-A4FF-D3FBC4DF9BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABBCF87-632B-4D31-A4FF-D3FBC4DF9BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABBCF87-632B-4D31-A4FF-D3FBC4DF9BA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
