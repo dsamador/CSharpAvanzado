@@ -12,7 +12,7 @@ namespace Structs
 
         public class CPersona
         {
-            public string nombre;
+            public string nombre;            
         }
         static void Main(string[] args)
         {
